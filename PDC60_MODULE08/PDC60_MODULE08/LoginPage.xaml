@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="PDC60_MODULE08.LoginPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="xUsername"></Entry>
+            <Entry x:Name="xPassword"></Entry>
+
+            <Button Text="Login" Clicked="OnLogin"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="PDC60_MODULE08.UpdatePage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="xID" TextChanged="OnRetrievedChanged" IsReadOnly="True"></Entry>
+            <Entry x:Name="xUsername"></Entry>
+            <Entry x:Name="xPassword"></Entry>
+
+            <Button Text="Update" Clicked="OnUpdate"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+

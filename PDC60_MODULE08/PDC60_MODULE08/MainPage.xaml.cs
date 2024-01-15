@@ -63,6 +63,12 @@ namespace PDC60_MODULE08
             base.OnAppearing();
         }
 
+        private async void Search_Page_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new SearchPage());
+        }
+
+
 
     }
 }

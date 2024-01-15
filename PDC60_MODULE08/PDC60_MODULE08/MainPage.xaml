@@ -4,7 +4,7 @@
              x:Class="PDC60_MODULE08.MainPage">
 
     <StackLayout>
-        <Button Text="Add Records" Clicked="OnAdd"></Button>
+        <Button Text="Search" Clicked="Search_Page_Clicked"></Button>
         <Button Text="Refresh" Clicked="OnRefresh"></Button>
         <Entry x:Name="xUsername" Placeholder="Username"></Entry>
         <Entry x:Name="xPassword" Placeholder="Password"></Entry>

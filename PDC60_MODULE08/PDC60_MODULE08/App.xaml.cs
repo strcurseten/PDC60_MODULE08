@@ -10,7 +10,8 @@ namespace PDC60_MODULE08
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new LoginPage());
+
         }
 
         protected override void OnStart()
